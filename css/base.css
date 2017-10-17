@@ -1077,9 +1077,9 @@ li.company_honor_list_middle {
     -webkit-transform: translateX(-500px) translateZ(0);
     -o-transform: translateX(-500px) translateZ(0);
     opacity: 0;
-    transition: transform 1s;
-    -webkit-transition: transform 1s;
-    -o-transition: transform 1s;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 .brand_list_animate_right {
     transform: translateX(500px) translateZ(0);
@@ -1088,9 +1088,9 @@ li.company_honor_list_middle {
     -webkit-transform: translateX(500px) translateZ(0);
     -o-transform: translateX(500px) translateZ(0);
     opacity: 0;
-    transition: transform 1s;
-    -webkit-transition: transform 1s;
-    -o-transition: transform 1s;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 .show {
     transform: translateX(0) translateZ(0);
