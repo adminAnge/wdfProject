@@ -1,0 +1,443 @@
+@media screen and (max-width: 1200px) {
+	/*首页*/
+	.index_brand {
+		width: 1000px;
+	}
+	.index_brand_list a {
+		height: 250px;
+	}
+	/*企业 公司介绍*/
+	.company_honor_list li div {
+		height: 305px;
+	}
+
+}
+@media screen and (max-width: 1024px) {
+	/*footer*/
+	.footer_contact_info div p {
+		font-size: 18px;
+	}
+	/*首页*/
+	.index_brand {
+		width: 700px;
+	}
+	.index_brand_list a {
+		height: 170px;
+	}
+	.index_brand_list_txt p {
+		margin: 50px 0 10px 0;
+		font-size: 30px;
+	}
+	.index_header h3 {
+		font-size: 30px;
+	}
+	.index_header span {
+		height: 5px;
+		margin: 10px auto 0 auto;
+	}
+	.index_company_txt_info p {
+		line-height: 25px;
+	}
+	.index_company_img_top {
+		width: 90%;
+	}
+	.index_company_img_bottom {
+		width: 70%;
+	}
+	.index_company_img_middle {
+		margin: 200px 10%;
+		height: 150px;
+	}
+	.index_news_list_img {
+		margin-top: 50px;
+	}
+	.index_news_list_txt_info {
+		line-height: 25px;
+	}
+	.index_cooperation_list .swiper-slide {
+	    height: 190px;
+	}
+	/*企业 公司介绍*/
+	.company_honor_list li div {
+		height: 210px;
+	}
+	.company_honor_list li {
+		margin-bottom: 20px;
+	}
+	/*加盟 加盟流程*/
+	.join_process_list li h5 {
+		font-size: 20px;
+	}
+	.join_process_list li p {
+		font-size: 16px;
+	}
+	/*加盟 合作支持*/
+	.join_coorperation_list_img {
+		height: 40%;
+	}
+	.join_coorperation_list_txt {
+		height: 60%;
+	}
+
+	/*联系 联系我们*/
+	.contact_title {
+		width: 80%;
+	}
+	.contat_list li {
+		height: 250px;
+	}
+	/*品牌*/
+	.brand_list_ul li,.brand_list_dl dt, .brand_list_dl dd {
+		height: 154px;
+		line-height: 154px;
+	}
+}
+@media screen and (max-width: 768px) {
+	/*header*/
+	.nav ul li a p {
+		margin-top: 0;
+	}
+	.nav ul li a {
+		line-height: 30px;
+	}
+	.nav ul li {
+		height: 60px;
+	}
+	.nav ul li a.nav_active {
+		height: 60px;
+	}
+	.logo img {
+		margin-top: 5px;
+	}
+
+	.footer_contact_info div p {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.footer_wx div img {
+		width: 80%;
+		margin-left: 10%;
+	}
+	/*footer*/
+	.footer_form_info p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	/*footer*/
+	.footer_wx {
+		top: 220px;
+		right: 0;
+	}
+	.footer_contact_info div {
+		width: 100%;
+	}
+	.footer_form_info p {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.footer_left,.footer_right {
+		float: none;
+		width: 100%;
+	}
+	.footer_left dl {
+		width: 25%;
+		height: 200px;
+		text-align: center;
+	}
+	.footer_address {
+		margin-top: 0;
+	}
+	.go_top {
+		width: 30px;
+		height: 30px;
+		background-size: 80% 80%;
+	}
+	.footer_wx div {
+		margin-right: 0;
+	}
+	.footer_left {
+		margin: 0;
+	}
+	.footer_right {
+		margin-top: 10px;
+	}
+	/*首页*/
+	.index_brand {
+		width: 426px;
+	}
+	.index_brand_list a {
+		height: 142px;
+		/*width: 50%;*/
+	}
+	.index_company_txt,.index_company_img {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+	.index_company_img {
+		margin-top: 20px;
+	}
+	.index_news_list li {
+		width: 100%;
+		margin: 0 0 20px 0;
+		float: none;
+	}
+	.index_news_list_img {
+		margin-top: 20px;
+	}
+	.index_cooperation_btn {
+		width: 50px;
+		top: 20%;
+		height: 100px;
+	}
+	.index_cooperation_list .swiper-slide {
+	    height: 120px;
+	}
+	.index_cooperation_list_li p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	/*企业 公司介绍*/
+	.company_belt div a, .join_belt div a,.company_root_list_header h6 {
+		font-size: 20px;
+	}
+	/*企业 公司荣誉*/
+	.company_honor_list li div {
+		height: 130px;
+	}
+	.company_honor_list li {
+		margin-bottom: 20px;
+	}
+	.company_honor_list li p {
+		line-height: 25px;
+		font-size: 18px;
+	}
+	/*企业 公司内核*/
+	.company_root_list li p {
+		font-size: 14px;
+	}
+	/*企业 团队风采*/
+	.company_team_list li {
+		width: 50%;
+	}
+	
+	/*加盟 加盟流程*/
+	.join_process_list li h5 {
+		width: 18%;
+	}
+	.join_process_list li {
+		height: 100px;
+	}
+	.join_process_list li p {
+		white-space: normal;
+		line-height: 30px;
+		width: 78%;
+	}
+	
+	/*加盟 合作支持*/
+	.join_coorperation_list li {
+		width: 46%;
+	}
+	/*新闻 新闻详情*/
+	.new_detail_title {
+		width: 50%;
+	}
+	/*联系 联系我们*/
+	.contact_title {
+		width: 100%;
+	}
+	.contact_title h1, .contact_title h2 {
+		font-size: 22px;
+	}
+	.contat_list_txt h6 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.contat_list li {
+		height: auto;
+	}
+	.contat_list_map {
+		height: 250px;
+	}
+	.contat_list_map,.contat_list_txt_container {
+		width: 100%;
+	}
+	.contat_list_txt {
+		padding: 5%;
+	}
+	/*品牌*/
+	.brand_list_ul li,.brand_list_dl dt, .brand_list_dl dd {
+		height: 92.77px;
+		line-height: 92.77px;
+	}
+
+}
+@media screen and (max-width: 425px) {
+
+	/*header*/
+	.head_container, .head_welcome_info {
+		width: 90%;
+	}
+	.logo img {
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+	}
+	.head_welcome {
+		display: none;
+	}
+	.banner {
+		margin-top: 70px;
+	}
+	.index_brand {
+		padding: 20px 0;
+	}
+	
+	/*首页*/
+	.index_brand {
+		width: 300px;
+	}
+	.index_brand_list a {
+		height: auto;
+		width: 100%;
+	}
+	.index_brand_list_txt p {
+		margin: 100px 0 10px 0;
+		/*font-size: 30px;*/
+	}
+	.index_company_img {
+		height: 350px;
+	}
+	.index_company_img_middle {
+		margin: 100px 10%;
+	}
+	.index_news_list_img {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.index_news_list_txt {
+		width: 90%;
+	}
+	.index_news_list_img img {
+		display: inline;
+	}
+	.index_cooperation_list {
+		margin: 20px 0 0 0;
+	}
+	.index_cooperation_list .swiper-slide {
+		height: 248px;
+		position: static;
+		margin: 0 0 20px 0;
+	}
+	.index_cooperation_list .swiper-wrapper {
+		display: block;
+	}
+	.index_cooperation_list_li p {
+		line-height: 50px;
+	}
+	/*企业 公司介绍*/
+	.company_belt, .join_belt {
+		width: 100%;
+	}
+	.company_belt div {
+		width: 50%;
+	}
+	.company_img div {
+		width: 100%;
+	}
+	/*企业 公司荣誉*/
+	.company_honor_list li {
+		width: 100%;
+		
+	}
+	.company_honor_list li div {
+		height: 285px;
+	}
+	.company_honor_list li p {
+		line-height: 35px;
+	}
+	/*企业 公司内核*/
+	.company_root_list li {
+		width: 100%;
+	}
+	/*企业 团队风采*/
+	.company_team_list li {
+		width: 100%;
+	}
+	/*加盟 加盟流程*/
+	.join_process_list li {
+		height: auto;
+	}
+	.join_process_list li h5 {
+		width: 100%;
+	}
+	.join_process_list li p {
+		margin: 0 3%;
+		width: 94%;
+	}
+	/*加盟 合作支持*/
+	.join_coorperation_list li {
+		width: 100%;
+		margin: 0 0 20px 0;
+		height: 250px;
+	}
+	.join_coorperation_list_img img {
+		margin-top: 10%;
+	}
+
+	/*新闻 新闻详情*/
+	.news_page a {
+		font-size: 14px;
+		margin: 0 5px;
+	}
+	.new_detail_title h1 {
+		font-size: 22px;
+	}
+	.new_detail_info p,.new_detail_info p a {
+		font-size: 14px;
+	}
+	/*联系 联系我们*/
+	.contact_title h1, .contact_title h2 {
+		font-size: 20px;
+		margin: 15px 0;
+	}
+	.contact_belt div {
+		width: 100%;
+	}
+	.contact_title {
+		margin-bottom: 20px;
+	}
+	.contat_list_txt p {
+		font-size: 16px;
+	}
+	.contat_list_txt p span {
+		width: 16px;
+		height: 16px;
+	}
+	.contat_list_txt h6 {
+		font-size: 18px;
+	}
+	/*品牌*/
+	.brand_list_dl dt, .brand_list_dl dd {
+		height: auto;
+		/*line-height: 92.77px;*/
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/*footer*/
+	.footer_left dl {
+		display: none;
+	}
+	.footer_wx {
+		position: static;
+		width: 60%;
+		margin: 10px auto 0 auto;
+
+	}
+	.footer_wx div img {
+		width: 100%;
+		margin: 0;
+	}
+}
