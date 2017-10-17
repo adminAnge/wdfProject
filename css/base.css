@@ -976,8 +976,7 @@ li.company_honor_list_middle {
 }
 .contat_list li {
     width: 100%;
-    height: 300px;
-    background-color: #f8f7f7;
+    height: 300px;    
     margin-bottom: 20px;
 }
 .contat_list li:last-child {
@@ -991,6 +990,7 @@ li.company_honor_list_middle {
 .contat_list_txt_container {
     width: 40%;
     height: 100%;  
+    background-color: #f8f7f7;
 }
 .contat_list_txt {
     padding: 20% 5% 0 5%;
@@ -1151,6 +1151,9 @@ li.company_honor_list_middle {
 }
 .brand_list_dl dd img,.brand_list_dl_cover img,.brand_list_dl dt img {
     vertical-align: middle;
+}
+.brand_list_dl_cover img {
+    max-width: 20%;
 }
 .brand_list_dl_cover {
     position: absolute;
