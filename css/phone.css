@@ -49,11 +49,17 @@
 		height: 150px;
 	}
 	.index_news_list_img {
-		margin-top: 50px;
+		margin-top: 40px;
+	}
+	.index_news_list li {
+		height: 180px;
 	}
 	.index_news_list_txt_info {
 		line-height: 25px;
+		height: 125px;
+
 	}
+
 	.index_cooperation_list .swiper-slide {
 	    height: 190px;
 	}
@@ -181,6 +187,7 @@
 		width: 100%;
 		margin: 0 0 20px 0;
 		float: none;
+
 	}
 	.index_news_list_img {
 		margin-top: 20px;
@@ -304,7 +311,6 @@
 	}
 	.index_brand_list_txt p {
 		margin: 100px 0 10px 0;
-		/*font-size: 30px;*/
 	}
 	.index_company_img {
 		height: 350px;
@@ -316,6 +322,9 @@
 		margin: 0;
 		width: 100%;
 		text-align: center;
+	}
+	.index_news_list li {
+		height: auto;
 	}
 	.index_news_list_txt {
 		width: 90%;

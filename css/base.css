@@ -454,6 +454,7 @@ body {
     margin: 0 1% 20px 1%;
     box-shadow: 1px 1px 5px #ccc;
     background-color: white;
+    height: 173px;
 }
 
 
@@ -469,7 +470,7 @@ body {
 }
 .index_news_list_txt {
     width: 60%;
-    padding: 10px 5%;
+    padding: 1% 5%;
 }
 .index_news_list_txt_header {
     font-size: 20px;
@@ -495,9 +496,12 @@ body {
     background-color: #cccccc;
 }
 .index_news_list_txt_info {
-    /*font-size: 12px;*/
     text-indent: 32px;
     line-height: 30px;
+    height: 120px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 .index_news_list_txt_span_hover {
     -webkit-animation: span_progress .8s both;
@@ -1246,7 +1250,7 @@ li.company_honor_list_middle {
 	font-size: 18px;
 }
 .footer_address a:hover {
-	color:  #0257a7;
+	color:  #e50012;
 
 }
 
@@ -1263,7 +1267,6 @@ li.company_honor_list_middle {
 	height: 50px;
 	background-image: url(../images/footer04.png);
 }
-
 .footer_right form {
 	width: 100%;
 }
