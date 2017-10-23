@@ -12,6 +12,9 @@
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=TOIKw2721WRLOrZr7gOIk0wLqWAV1682"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
 </head>
 <body>
     <header class="head">
@@ -77,9 +80,37 @@
             <h2>全国统一招商热线：400-XXX-XXX</h2>
         </header>
         <ul class="contat_list">
+
             <li class="clear">
-                <div class="contat_list_map fl brand_list_animate_right">
+                <div class="contat_list_map fl brand_list_animate_right" id="map1">
                     
+                   
+                    <script type="text/javascript">
+                        // 百度地图API功能
+                        var map2 = new BMap.Map('map1');
+                        var poi2 = new BMap.Point(104.058306,30.695597);
+                        map2.centerAndZoom(poi2, 20);
+                        map2.enableScrollWheelZoom();
+                        var content2 = 'B座23层';
+                        //创建检索信息窗口对象
+                        var searchInfoWindow2 = null;
+                        searchInfoWindow2 = new BMapLib.SearchInfoWindow(map2, content2,{
+                            title  : "智业世纪加州",      //标题
+                            width  : 290,             //宽度
+                            height :20,
+                            panel  : "panel",         //检索结果面板
+                            enableAutoPan : true,     //自动平移
+                            searchTypes   :[
+                                BMAPLIB_TAB_TO_HERE,  //到这里去
+                                BMAPLIB_TAB_FROM_HERE //从这里出发
+                            ]
+                        });
+                        var marker2 = new BMap.Marker(poi2); //创建marker对象
+                        marker2.addEventListener("click", function(e){
+                            searchInfoWindow2.open(marker2);
+                        })
+                        map2.addOverlay(marker2); //在地图中添加marker
+                    </script>
                 </div>
                 <div class="contat_list_txt_container fr brand_list_animate_left">
                     <div class="contat_list_txt">

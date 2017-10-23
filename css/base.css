@@ -464,9 +464,11 @@ body {
 .index_news_list_img {
     width: 30%;
     vertical-align: top;
+    height: 100%;
 }
 .index_news_list_img img {
     display: block;
+    height: 100%;
 }
 .index_news_list_txt {
     width: 60%;
@@ -988,7 +990,6 @@ li.company_honor_list_middle {
 }
 .contat_list_map {
     width: 60%;
-    /*background-color: #26A55E;*/
     height: 100%;
 }
 .contat_list_txt_container {
