@@ -48,9 +48,6 @@
 		margin: 200px 10%;
 		height: 150px;
 	}
-	.index_news_list_img {
-		margin-top: 40px;
-	}
 	.index_news_list li {
 		height: 180px;
 	}
@@ -188,9 +185,6 @@
 		margin: 0 0 20px 0;
 		float: none;
 
-	}
-	.index_news_list_img {
-		margin-top: 20px;
 	}
 	.index_cooperation_btn {
 		width: 50px;
