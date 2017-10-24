@@ -32,7 +32,7 @@ $(function(){
         screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
         height = scrTop + screenHeight;
         $('.brand_list_animate_left,.brand_list_animate_right').each(function(index) {
-            if ($(this).offset().top <= height - 150) {
+            if ($(this).offset().top <= height) {
                 $(this).addClass('show');
             }else {
                 $(this).removeClass('show');

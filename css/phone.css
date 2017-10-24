@@ -60,6 +60,10 @@
 	.index_cooperation_list .swiper-slide {
 	    height: 190px;
 	}
+	/*修改增加精彩一览主页 20171024*/
+	.index_wonderful {
+		height: 300px;
+	}
 	/*企业 公司介绍*/
 	.company_honor_list li div {
 		height: 210px;
@@ -197,6 +201,11 @@
 	.index_cooperation_list_li p {
 		font-size: 14px;
 		line-height: 20px;
+	}
+	/*修改增加精彩一览主页 20171024*/
+	.index_wonderful {
+		height: 200px;
+		margin-top: 20px;
 	}
 	
 	/*企业 公司介绍*/
@@ -339,6 +348,19 @@
 	}
 	.index_cooperation_list_li p {
 		line-height: 50px;
+	}
+	/*修改增加精彩一览主页 20171024*/
+	.index_wonderful {
+		height: auto;
+	}
+	.index_wonderful_video {
+		width: 100%;
+		height: 200px;
+		margin-bottom: 10px;
+	}
+	.index_wonderful_img {
+		width: 100%;
+		height: auto;
 	}
 	/*企业 公司介绍*/
 	.company_belt, .join_belt {
